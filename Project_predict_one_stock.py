@@ -53,17 +53,3 @@ img.show()
 
 print('\nPredicted price for tomorrow: ' + str(predict_tmr(stock, today)))
 
-
-
-#import os
-
-#def get_name(file):
-#    base = os.path.basename(file)
-#    os.path.splitext(base)
-#    stock_name = os.path.splitext(base)[0].replace('.us','')
-#    return stock_name
-    
-#data_files = glob('C:/Users/tahaa/Desktop/python/AI_Project/Stocks/*.txt')
-#stock_names = [get_name(data_file) for data_file in data_files]
-
-#print(stock_names)
