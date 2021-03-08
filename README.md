@@ -22,6 +22,8 @@ root-mean-squared error value for each stock.
 
 
 
+
+
 Problems and Aim
 
 Problem: Financial analysts who invest in stock market usually are not aware of the stock market behavior.
