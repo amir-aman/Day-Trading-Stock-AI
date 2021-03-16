@@ -20,7 +20,7 @@ data_files = glob('C:/Users/tahaa/Desktop/python/AI_Project/Stocks/*.txt')
 dfs = [pd.read_csv(data_file) for data_file in data_files]
 
 #for df in dfs:
-for i in range(5931, len(dfs)):
+for i in range(0, len(dfs)):
 
     #Returns stock name for graph title
     base = os.path.basename(data_files[i])
